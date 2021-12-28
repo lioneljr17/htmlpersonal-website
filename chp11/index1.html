@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function imageDog()
+{
+	var ImageObject = document.getElementById("DogCat");
+	ImageObject.src = "http://www.websitedevelopmentbook.com/Chapter11/Dog.jpg";
+}
+function imageCat()
+{
+	var ImageObject = document.getElementById("DogCat");
+	ImageObject.src = "http://www.websitedevelopmentbook.com/Chapter11/Cat.jpg";
+}
+</script>
+</head>
+<body>
+<img id="DogCat" onmouseover="imageCat()"onmouseout="imageDog()"
+	src="http://www.websitedevelopmentbook.com/Chapter11/Dog.jpg" >
+</body>
+</html>
